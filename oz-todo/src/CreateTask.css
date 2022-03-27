@@ -1,0 +1,17 @@
+.create {
+  width: var(--task-width);
+  height: 50px;
+  background: var(--container-color);
+  border-radius: 5px;
+  box-shadow: 0 0 1px var(--shadow-color);
+  margin: 25px 0;
+}
+
+.task-text {
+  background: transparent;
+  border: 0;
+  margin: 12.5px;
+  height: 25px;
+  width: 95%;
+  font-size: 15px;
+}

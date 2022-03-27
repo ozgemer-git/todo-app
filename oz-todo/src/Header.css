@@ -1,0 +1,37 @@
+.header {
+  width: var(--task-width);
+  margin-top: 50px;
+}
+
+h1 {
+  display: inline-block;
+  color: white;
+}
+
+.theme-change {
+  float: right;
+  margin-top: 15px;
+}
+
+.theme-pic {
+  cursor: pointer;
+  float: right;
+  height: 30px;
+  width: 30px;
+}
+
+.moon-pic {
+  background: url("./images/icon-moon.svg") no-repeat;
+}
+
+.sun-pic {
+  background: url("./images/icon-sun.svg") no-repeat;
+}
+
+[type="radio"] {
+  display: none;
+}
+
+#dark-mode {
+  display: none;
+}

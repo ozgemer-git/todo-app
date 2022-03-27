@@ -1,0 +1,35 @@
+.task-container {
+  width: var(--task-width);
+  background: var(--container-color);
+  border-radius: 5px;
+  box-shadow: 0 0 1px var(--shadow-color);
+}
+
+.task-footer {
+  margin-bottom: 45px;
+  width: var(--task-width);
+  height: 30px;
+  background: var(--container-color);
+  border-radius: 0 0 5px 5px;
+}
+
+.task-footer .task-count {
+  float: left;
+  color: hsl(233, 14%, 35%);
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+.task-footer button {
+  float: right;
+  margin-right: 15px;
+  margin-top: 5px;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  color: hsl(233, 14%, 35%);
+}
+
+.task-footer button:hover {
+  color: var(--text-color);
+}

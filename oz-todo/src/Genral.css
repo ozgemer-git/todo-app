@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
+:root {
+  --text-color: white;
+  --container-color: hsl(235, 24%, 19%);
+  --bg-image: url("./images/bg-desktop-dark.jpg");
+  --bg-color: hsl(235, 21%, 11%);
+  --shadow-color: hsl(237, 14%, 26%);
+  --task-width: 400px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans";
+  color: var(--text-color);
+}
+
+@media (max-width: 375px) {
+  :root {
+    --task-width: 325px;
+  }
+}

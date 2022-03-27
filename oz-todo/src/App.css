@@ -1,0 +1,12 @@
+body {
+  background: var(--bg-image) no-repeat;
+  background-size: cover;
+  background-color: var(--bg-color);
+}
+
+.todo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: var(--task-width);
+}
